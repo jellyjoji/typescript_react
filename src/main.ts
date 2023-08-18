@@ -1,8 +1,8 @@
-import React from 'react'
+import { StrictMode } from 'react'
 import ReactDOM from 'react-dom/client'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
-  <React.StrictMode>
+  <StrictMode>
     <div>hello</div>
-  </React.StrictMode>,
+  </StrictMode>,
 )
